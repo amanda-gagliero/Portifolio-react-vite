@@ -1,0 +1,34 @@
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.title h1 {
+    display: flex;
+    justify-content: left;
+    margin:150px 0px 50px 60px;
+}
+
+.projects img {
+    width: 250px;  /* Define uma largura fixa */
+    height: 200px; /* Define uma altura fixa */
+    object-fit: cover; /* Mantém a proporção e evita distorção */
+    border-radius: 10px; /* Cantos arredondados (opcional) */
+}
+
+.projects img[src$=".svg"] {
+    width: 250px; /* Força um tamanho fixo para o SVG */
+    height: 150px;
+}
+
+.projects img[src$=".jpeg"] {
+    width: 250px; /* Força um tamanho fixo para o jpeg*/
+    height: 150px;
+}
+
+.projects img[src$=".jpg"] {
+    width: 250px; /* Força um tamanho fixo para o jpg*/
+    height: 150px;
+}

@@ -1,0 +1,28 @@
+.aboutMe h1{
+    text-align: left;
+    margin: 100px 0px 50px 60px;
+}
+.aboutMe {
+    text-align: center;
+    padding: 20px;
+}
+
+.profileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Alinha o texto ao centro */
+}
